@@ -9,7 +9,7 @@ $(BINDIR)/%.class:$(SRCDIR)/%.java
 
 CLASSES= \
 		Graph.class \
-		SimulatorTwo.class
+		TaxiSimulator.class
 
 CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
 
@@ -21,7 +21,7 @@ clean:
 	rm $(BINDIR)/*.class
 
 run:	$(CLASS_FILES)
-	java -cp bin SimulatorTwo
+	java -cp bin TaxiSimulator
 
 javadoc:
 	javadoc -d doc -cp bin -sourcepath src $(SRCDIR)/*.java
