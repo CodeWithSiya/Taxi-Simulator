@@ -30,6 +30,3 @@ javadoc:
 
 git-log:
 	@git --no-pager log --pretty=format:%s | (ln=0; while read l; do echo $$ln\: $$l; ln=$$((ln+1)); done) | (head -n 10; echo ...; tail -n 10)
-
-compress:
-	tar -czvf MDNSIY014-CSC2001F-A3.tar.gz bin doc src Input.txt Makefile readme.txt
