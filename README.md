@@ -78,3 +78,15 @@ shop 6
 5 6
 amount due for this client is R33.45
 </pre>
+
+## Author
+
+- Siyabonga Madondo
+
+## Version
+
+- 17/06/2024
+
+## License
+
+This project is licensed under the MIT License.
